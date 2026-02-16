@@ -176,3 +176,7 @@ tickets["resolution_hours"] = (
 
 print("\nAverage resolution time:")
 print(tickets["resolution_hours"].mean())
+
+
+
+tickets.to_csv("tickets.csv", index=False)
